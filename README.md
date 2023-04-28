@@ -6,6 +6,6 @@ This repository contains Jupyter notebooks specifying different Reinforcement Le
 
 | Name | Description | Link | Colab | NBViewer |
 |:-----|:------------|:-----|:------|:---------|
-|`REINFORCE.ipynb` | implementation of the REINFORCE and REINFORCE with baseline algorithms using PyTorch and Gymnasium on the LunarLander-v2 environment | [notebook](notebooks/REINFORCE.ipynb)  |   |   |
+|`REINFORCE.ipynb` | implementation of the REINFORCE and REINFORCE with baseline algorithms using PyTorch and Gymnasium on the LunarLander-v2 environment | [notebook](notebooks/REINFORCE.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/REINFORCE.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/REINFORCE.ipynb)|
 |   |   |   |   |   |
 |   |   |   |   |   |
