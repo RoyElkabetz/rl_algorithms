@@ -5,7 +5,7 @@ This repository contains Jupyter notebooks of different Reinforcement Learning (
 ### List of algorithms:
 - [REINFORCE (discrete)](notebooks/REINFORCE.ipynb)
 - [REINFORCE (continuous)](notebooks/REINFORCE_continuous.ipynb)
-- [Actor Critic TD($0$)](notebooks/Actor_Critic_TD_0.ipynb)
+- [Actor Critic TD(0)](notebooks/Actor_Critic_TD_0.ipynb)
 - [SARSA](notebooks/SARSA.ipynb)
 - [Q-Learning](notebooks/Q-Learning.ipynb)
 
