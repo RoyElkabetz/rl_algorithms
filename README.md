@@ -1,6 +1,14 @@
 # rl algorithms
 
-This repository contains Jupyter notebooks specifying different Reinforcement Learning (RL) algorithms.
+This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations.
+
+### List of algorithms:
+- [REINFORCE (discrete)](notebooks/REINFORCE.ipynb)
+- [REINFORCE (continuous)](notebooks/REINFORCE_continuous.ipynb)
+- [Actor Critic TD($0$)](notebooks/Actor_Critic_TD_0.ipynb)
+- [SARSA](notebooks/SARSA.ipynb)
+- [Q-Learning](notebooks/Q-Learning.ipynb)
+
 
 ## List of Notebooks
 
