@@ -19,7 +19,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the project files
-COPY Q-Learning_n_step.ipynb .
+COPY notebooks/ .
 
 # Set the entry point (modify it according to your project setup)
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]

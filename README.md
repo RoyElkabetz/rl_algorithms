@@ -2,6 +2,28 @@
 
 This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations.
 
+### Docker:
+In order to use Docker you should first build the image by running the following Shell command in the repository directory.
+
+```
+docker build -t rl_alg:latest .
+```
+Then, run the following command to create a container out of that image, connect it to port 8888 (the Jupyter port), and bind the `notebooks` directory in the container to the `notebooks` directory on the host (on your machine).
+
+```
+docker run -d -p 8888:8888 -v ./notebooks:app/notebooks rl_alg
+```
+
+Finally, open a browser on your local machine and go to 
+
+```
+localhost:8888
+``` 
+and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface should open with a locally mounted notebooks directory in it.
+
+
+
+
 ### List of algorithms:
 - [REINFORCE (discrete)](notebooks/REINFORCE.ipynb)
 - [REINFORCE (continuous)](notebooks/REINFORCE_continuous.ipynb)
