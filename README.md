@@ -24,7 +24,7 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 
 
 
-### List of algorithms:
+### List of implemented algorithms:
 - [REINFORCE (discrete)](notebooks/REINFORCE.ipynb)
 - [REINFORCE (continuous)](notebooks/REINFORCE_continuous.ipynb)
 - [Actor Critic TD(0)](notebooks/Actor_Critic_TD_0.ipynb)
@@ -34,6 +34,7 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 - [Double Q-Learning](notebooks/Double_Q-Learning.ipynb)
 - [SARSA TD(n) - Tabular ](notebooks/SARSA_n_step_tabular.ipynb)
 - [SARSA TD(n)](notebooks/SARSA_n_step.ipynb)
+- [Off-policy Expected-SARSA TD(n)](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)
 
 
 ## List of Notebooks
@@ -49,4 +50,5 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 |`Double_Q-Learning.ipynb` | Implementation of the Double Q-Learning vs. Q-Learning algorithms using PyTorch and Gymnasium on the Acrobot-v1 environment | [notebook](notebooks/Double_Q-Learning.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Double_Q-Learning.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Double_Q-Learning.ipynb)|
 |`SARSA_n_step_tabular.ipynb` | Implementation of the n-steps SARSA algorithm in its tabular version using Gymnasium on the CliffWalking-v0 environment | [notebook](notebooks/SARSA_n_step_tabular.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step_tabular.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step_tabular.ipynb)|
 |`SARSA_n_step.ipynb` | Implementation of the n-steps SARSA algorithm in its non-tabular version using PyTorch and Gymnasium on the CartPole-v1 environment | [notebook](notebooks/SARSA_n_step.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step.ipynb)|
+|`Off_policy_Expected_SARSA_n_step.ipynb ` | Implementation of the Off-policy n-steps Expected-SARSA algorithm in its non-tabular version using PyTorch and Gymnasium on the CartPole-v1 environment | [notebook](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Off_policy_Expected_SARSA_n_step.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Off_policy_Expected_SARSA_n_step.ipynb)|
 |   |   |   |   |   |
