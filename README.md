@@ -32,9 +32,9 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 - [Q-Learning](notebooks/Q-Learning.ipynb)
 - [Expected-SARSA](notebooks/Expected_SARSA.ipynb)
 - [Double Q-Learning](notebooks/Double_Q-Learning.ipynb)
-- [SARSA TD(n) - Tabular ](notebooks/SARSA_n_step_tabular.ipynb)
-- [SARSA TD(n)](notebooks/SARSA_n_step.ipynb)
-- [Off-policy Expected-SARSA TD(n)](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)
+- [SARSA n-step - Tabular ](notebooks/SARSA_n_step_tabular.ipynb)
+- [SARSA n-step](notebooks/SARSA_n_step.ipynb)
+- [Off-policy Expected-SARSA n-step](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)
 
 
 ## List of Notebooks
