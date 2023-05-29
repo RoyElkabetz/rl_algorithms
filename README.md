@@ -1,6 +1,6 @@
 # rl algorithms
 
-This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations.
+This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations. Each notebook implements a single RL algorithm in a self-contained and transparent manner.
 
 ### Docker:
 In order to use Docker you should first build the image by running the following Shell command in the repository directory.
@@ -28,12 +28,13 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 - [REINFORCE (discrete)](notebooks/REINFORCE.ipynb)
 - [REINFORCE (continuous)](notebooks/REINFORCE_continuous.ipynb)
 - [Actor Critic TD(0)](notebooks/Actor_Critic_TD_0.ipynb)
-- [SARSA](notebooks/SARSA.ipynb)
 - [Q-Learning](notebooks/Q-Learning.ipynb)
-- [Expected-SARSA](notebooks/Expected_SARSA.ipynb)
 - [Double Q-Learning](notebooks/Double_Q-Learning.ipynb)
+- [SARSA](notebooks/SARSA.ipynb)
 - [SARSA n-step - Tabular ](notebooks/SARSA_n_step_tabular.ipynb)
 - [SARSA n-step](notebooks/SARSA_n_step.ipynb)
+- [SARSA(λ)](notebooks/SARSA_lambda.ipynb)
+- [Expected-SARSA](notebooks/Expected_SARSA.ipynb)
 - [Off-policy Expected-SARSA n-step](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)
 
 
@@ -51,4 +52,5 @@ and enter in the Jupyter password the word `admin`. A Jupyter-Lab interface shou
 |`SARSA_n_step_tabular.ipynb` | Implementation of the n-steps SARSA algorithm in its tabular version using Gymnasium on the CliffWalking-v0 environment | [notebook](notebooks/SARSA_n_step_tabular.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step_tabular.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step_tabular.ipynb)|
 |`SARSA_n_step.ipynb` | Implementation of the n-steps SARSA algorithm in its non-tabular version using PyTorch and Gymnasium on the CartPole-v1 environment | [notebook](notebooks/SARSA_n_step.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_n_step.ipynb)|
 |`Off_policy_Expected_SARSA_n_step.ipynb ` | Implementation of the Off-policy n-steps Expected-SARSA algorithm in its non-tabular version using PyTorch and Gymnasium on the CartPole-v1 environment | [notebook](notebooks/Off_policy_Expected_SARSA_n_step.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Off_policy_Expected_SARSA_n_step.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/Off_policy_Expected_SARSA_n_step.ipynb)|
+|`SARSA_lambda.ipynb` | Implementations of the SARSA(λ) algorithm in its tabular and deep cases, with and without an Experience Replay Buffer using PyTorch and Gymnasium on the CliffWalking-v0 and CartPole-v1 environments | [notebook](notebooks/SARSA_lambda.ipynb)  | [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_lambda.ipynb)        | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/RoyElkabetz/rl_algorithms/blob/main/notebooks/SARSA_lambda.ipynb)|
 |   |   |   |   |   |
