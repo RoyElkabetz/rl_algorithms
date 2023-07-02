@@ -1,6 +1,6 @@
 # rl algorithms
 
-This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations. Each notebook implements a single RL algorithm in a self-contained and transparent manner.
+This repository contains Jupyter notebooks of different Reinforcement Learning (RL) algorithms implementations. Each notebook implements a single RL algorithm in a self-contained and complete manner.
 
 ### Docker:
 In order to use Docker you should first build the image by running the following Shell command in the repository directory.
